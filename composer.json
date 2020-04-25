@@ -1,0 +1,26 @@
+{
+    "name": "max/text_game_bot",
+    "authors": [
+        {
+            "name": "max zawalo",
+            "email": "m.zavalo@yandex.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GameTextBot\\": "src/GameTextBot/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GameTextBot\\Test\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.5"
+    },
+    "require": {
+        "rakibtg/sleekdb": "^1.5",
+        "monolog/monolog": "^1.25"
+    }
+}
